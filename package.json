@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/Bondarenkoalla/test/issues"
   },
-  "homepage": "https://github.com/Bondarenkoalla/test#readme",
+  "homepage": "https://github.com/bondarenkoalla.github.io/test",
   "devDependencies": {
     "@babel/core": "^7.22.1",
     "@babel/plugin-proposal-class-properties": "^7.18.6",

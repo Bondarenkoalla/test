@@ -1,0 +1,62 @@
+.navigationOpener {
+  //display: flex;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+
+  @media screen and (max-width: 1120px) {
+    display: flex;
+  }
+
+  span {
+    position: relative;
+    width: 100%;
+    height: 2.67px;
+    background: $red;
+    z-index: 100;
+    cursor: pointer;
+
+    &:before, &:after {
+      content: '';
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: $red;
+      transition: all .3s linear;
+    }
+
+    &:before {
+      top: -6px;
+    }
+
+    &:after {
+      top: 6px;
+    }
+  }
+
+  &_isActive {
+    span {
+      transition: all .3s linear;
+      background: transparent;
+
+      &:before, &:after {
+        top: 0;
+        background: $red;
+      }
+
+      &:before {
+        transform: rotate(45deg);
+      }
+
+      &:after {
+        right: 0;
+        transform: rotate(-45deg);
+      }
+    }
+  }
+}

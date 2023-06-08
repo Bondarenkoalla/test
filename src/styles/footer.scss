@@ -1,0 +1,42 @@
+.footer {
+  padding: 130px 0 30px;
+  color: #707283;
+  position: relative;
+
+  &__decoration {
+    position: absolute;
+    right: 132px;
+    top: 59px;
+    animation: rotate 6s infinite;
+  }
+
+  &__logo {
+    margin-bottom: 25px;
+  }
+
+  &__info {
+    margin-bottom: 30px;
+  }
+
+  &__heading {
+    margin-bottom: 25px;
+  }
+
+  &__link {
+    color: #707283;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+      color: $red;
+    }
+  }
+
+  li:not(:last-child) {
+    margin-bottom: 15px;
+  }
+
+  &__copyright {
+    margin-top: 130px;
+  }
+}

@@ -1,0 +1,104 @@
+.header {
+  position: fixed;
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 99;
+  height: 90px;
+  align-items: center;
+
+  &_background {
+    background: #FFF8F5;
+
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 0 15px;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  &__logo {
+    min-width: 148px;
+  }
+
+  &__icons {
+    &_hidden {
+      display: none;
+    }
+  }
+
+  &__navList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media screen and (max-width: 1120px) {
+      display: none;
+    }
+  }
+
+  &__navLink {
+    color: #242851;
+    font-family: $font-family-main;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+
+    @media screen and (max-width: 1120px) {
+      font-size: 32px;
+    }
+
+    &:hover {
+      color: $red;
+    }
+  }
+
+  &__button {
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+
+    &_mobile {
+      display: none;
+
+      @media screen and (max-width: 768px) {
+        display: block;
+      }
+    }
+  }
+
+  &__navItem:not(:last-child) {
+    margin-right: 55px;
+
+    @media screen and (max-width: 1120px) {
+      margin-right: 0;
+      margin-bottom: 50px;
+    }
+  }
+
+  &__mobile {
+    position: absolute;
+    right: 0;
+    top: 90px;
+    background-color: $background-color;
+    z-index: 99;
+    padding: 30px 30px 90px 90px;
+    border-bottom-left-radius: 54px;
+    width: 60%;
+
+    @media screen and (min-width: 1121px) {
+      display: none;
+    }
+
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
+  }
+}

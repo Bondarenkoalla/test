@@ -1,0 +1,37 @@
+.animation {
+  @keyframes rotate {
+    50% {
+      transform: rotate(90deg);
+    }
+  }
+
+  @keyframes top-bottom {
+    50% {
+      transform: translateY(-30px);
+    }
+  }
+
+  @keyframes left-right {
+    from {
+      transform: translateX(-30px);
+    }
+    50% {
+      transform: translate(30px, 20px);
+    }
+    100% {
+      transform: translateX(-30px);
+    }
+  }
+
+  @keyframes right-left {
+    from {
+      transform: translateX(15px);
+    }
+    50% {
+      transform: translate(-15px, 20px);
+    }
+    100% {
+      transform: translateX(15px);
+    }
+  }
+}

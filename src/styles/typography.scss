@@ -1,0 +1,87 @@
+.typography {
+  margin: 0;
+  padding: 0;
+
+  &__body {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: $font-family-second;
+  }
+
+  &__h1 {
+    font-family: $font-family-main;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 120px;
+
+    @media screen and (max-width: 991px) {
+      font-size: 57px;
+      line-height: 70px;
+    }
+  }
+
+  &__h2 {
+    font-family: $font-family-main;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 87px;
+
+    @media screen and (max-width: 991px) {
+      font-size: 50px;
+      line-height: 57px;
+    }
+
+  }
+
+  &__h3 {
+    font-family: $font-family-main;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 68px;
+  }
+
+  &__h4 {
+    font-family: $font-family-main;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 35px;
+  }
+
+  &__info {
+    font-family: $font-family-main;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  &__bold {
+    font-family: $font-family-main;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  &__smallText {
+    font-family: $font-family-second;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  &__centered {
+    text-align: center;
+  }
+
+  &__red {
+    color: #FF7751;
+  }
+}

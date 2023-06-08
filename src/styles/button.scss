@@ -1,0 +1,32 @@
+.button {
+  background: $gradient-red;
+  box-shadow: 0px 10px 25px rgba(255, 124, 84, 0.3);
+  border-radius: 30px;
+  color: #FFFFFF;
+  font-family: $font-family-main;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  padding: 16px 35px;
+  box-sizing: border-box;
+  transition: all 300ms;
+  text-align: center;
+
+  @media screen and (max-width: 991px) {
+    padding: 16px;
+  }
+
+  &_green {
+    background: linear-gradient(180deg, #00d7c3 0%, #00d7c3 65%);
+    box-shadow: 0px 10px 25px rgba(125, 181, 35, 0.3) !important;
+
+    &:hover {
+      box-shadow: 0 0 10px 0 #3de0d2 inset, 0 0 20px 2px rgba(75, 196, 182, 0.72) !important;
+    }
+  }
+
+  &:hover {
+    box-shadow: 0 0 10px 0 #de694e inset, 0 0 20px 2px #ce7a5a;
+  }
+}

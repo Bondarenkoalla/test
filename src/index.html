@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&family=Quicksand:wght@400;700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+<header class="header">
+    <a href="" class="header__logo">
+        <img src="./images/logo.svg" alt="logo photo" class="logo"/>
+    </a>
+    <ul class="header__navList">
+        <li class="header__navItem">
+            <a class="header__navLink" href="#main">Main</a>
+        </li>
+        <li class="header__navItem">
+            <a class="header__navLink" href="#services">Services</a>
+        </li>
+        <li class="header__navItem">
+            <a class="header__navLink" href="#about">About</a>
+        </li>
+        <li class="header__navItem">
+            <a class="header__navLink" href="#team">Our team</a>
+        </li>
+        <li class="header__navItem">
+            <a class="header__navLink" href="#price">Price</a>
+        </li>
+    </ul>
+    <a class="header__button button" href="tel:384-129-293-39">384-129-293-39</a>
+
+    <div class="navigationOpener" id="navigationOpener">
+        <span></span>
+    </div>
+
+    <div class="navigationBackdrop" id="navigationBackdrop">
+    </div>
+
+    <ul class="header__mobile hidden">
+        <li class="header__navItem">
+            <a class="header__navLink" href="#main">Main</a>
+        </li>
+        <li class="header__navItem">
+            <a class="header__navLink" href="#services">Services</a>
+        </li>
+        <li class="header__navItem">
+            <a class="header__navLink" href="#about">About</a>
+        </li>
+        <li class="header__navItem">
+            <a class="header__navLink" href="#team">Our team</a>
+        </li>
+        <li class="header__navItem">
+            <a class="header__navLink" href="#price">Price</a>
+        </li>
+        <li><a class="header__button header__button_mobile button" href="tel:384-129-293-39">384-129-293-39</a>
+        </li>
+    </ul>
+</header>
+
+<div class="content">
+
+    <div class="container">
+        <section class="firstSection">
+            <a name="main"></a>
+            <div class="row">
+                <div class="col-12 col-md-10 col-lg-6">
+                    <h1 class="firstSection__title typography typography__h1" data-aos="fade-right" data-aos-delay="100"
+                        data-aos-duration="1000">For Your Pet’s Natural Life & Care</h1>
+                    <p class="firstSection__text" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt</p>
+                    <div class="firstSection__buttons" data-aos-easing="ease-out-back" data-aos="zoom-in-right"
+                         data-aos-delay="300" data-aos-duration="1100">
+                        <a class="firstSection__button button" href="#">Our Services</a>
+                        <a class="button button_green" href="#">Make Appointment</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-10 col-lg-6">
+                    <div class="firstSection__imageWrapper">
+                        <img class="firstSection__image" src="./images/image.png" alt="" data-aos-easing="ease-out-back"
+                             data-aos="zoom-in" data-aos-duration="1100">
+                        <div class="firstSection__circle"></div>
+                        <img class="firstSection__decoration firstSection__decoration_first"
+                             src="./images/decoration.svg"
+                             alt="">
+                        <img class="firstSection__decoration firstSection__decoration_second"
+                             src="./images/decoration-1.svg"
+                             alt="">
+                        <img class="firstSection__decoration firstSection__decoration_fourth"
+                             src="./images/decoration-3.svg"
+                             alt="">
+                    </div>
+                </div>
+                <img class="firstSection__decoration firstSection__decoration_third" src="./images/decoration-2.svg"
+                     alt="">
+            </div>
+        </section>
+        <a name="services"></a>
+        <section class="secondSection">
+            <div class="row">
+                <p class="secondSection__info typography typography__red typography__centered typography__info"
+                   data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Care For
+                    Your Pet</p>
+                <h2 class="secondSection__title typography typography__centered typography__h2" data-aos="fade-up"
+                    data-aos-delay="100" data-aos-duration="1000">What We Do</h2>
+            </div>
+
+            <ul class="secondSection__list row">
+                <li class="col-12 col-xl-3 col-md-6">
+                    <div class="secondSection__listItem" data-aos="fade-up" data-aos-delay="100"
+                         data-aos-duration="1000">
+                        <img class="secondSection__image" src="./images/second-section/icon.svg" alt="icon">
+                        <h4 class="typography typography__centered typography__h4 secondSection__listTitle">
+                            Pet Grooming
+                        </h4>
+                        <p class="typography typography__centered secondSection__listText">
+                            There are many variatio of passage of Lorem for a Ipsum vailable
+                        </p>
+                    </div>
+                </li>
+                <li class="col-12 col-xl-3 col-md-6">
+                    <div class="secondSection__listItem" data-aos="fade-up" data-aos-delay="200"
+                         data-aos-duration="1000">
+                        <img class="secondSection__image" src="./images/second-section/icon-1.svg" alt="icon">
+                        <h4 class="typography typography__centered typography__h4 secondSection__listTitle">
+                            Veterinary
+                        </h4>
+                        <p class="typography typography__centered secondSection__listText">There are many variatio of
+                            passage of Lorem for a Ipsum available
+                        </p>
+                    </div>
+                </li>
+                <li class="col-12 col-xl-3 col-md-6">
+                    <div class="secondSection__listItem" data-aos="fade-up" data-aos-delay="300"
+                         data-aos-duration="1000">
+                        <img class="secondSection__image" src="./images/second-section/icon-2.svg" alt="icon">
+                        <h4 class="typography typography__centered typography__h4 secondSection__listTitle">
+                            Dog Setting
+                        </h4>
+                        <p class="typography typography__centered secondSection__listText">There are many variatio of
+                            passage of Lorem for a Ipsum available
+                        </p>
+                    </div>
+                </li>
+                <li class="col-12 col-xl-3 col-md-6">
+                    <div class="secondSection__listItem" data-aos="fade-up" data-aos-delay="400"
+                         data-aos-duration="1000">
+                        <img class="secondSection__image" src="./images/second-section/icon-3.svg" alt="icon">
+                        <h4 class="typography typography__centered typography__h4 secondSection__listTitle">
+                            Healthy Meals
+                        </h4>
+                        <p class="typography typography__centered secondSection__listText">There are many variatio of
+                            passage of Lorem for a Ipsum available
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <a name="about"></a>
+        <section class="thirdSection">
+            <img class="thirdSection__decoration thirdSection__decoration_third"
+                 src="./images/third-section/decoration-2.svg" alt="">
+            <div class="row">
+                <div class="col-12 col-lg-7">
+                    <p class="thirdSection__info typography typography__red typography__info" data-aos="fade-right"
+                       data-aos-delay="100" data-aos-duration="1000">Our Success Story</p>
+                    <h2 class="thirdSection__title typography typography__h2" data-aos="fade-right" data-aos-delay="100"
+                        data-aos-duration="1000">Experience Vet Clinic
+                        And Services</h2>
+                    <p class="typography thirdSection__text" data-aos="fade-right" data-aos-delay="100"
+                       data-aos-duration="1000">Aliquam erat volutpat In id fermentum augue, ut
+                        pellentesque Maecenas at arcu risus. Donec
+                        commodo sodales ex, scelerisque laoreet nibh hakso hendrerit id. In aliquet magna nec lobortis
+                        maximus.</p>
+                    <ul class="thirdSection__list">
+                        <li class="thirdSection__listItem" data-aos="fade-right" data-aos-delay="200"
+                            data-aos-duration="1000">
+                            <img class="thirdSection__icon" src="./images/paw.svg" alt="icon">
+                            <p class="typography typography__bold">Donec commodo scelerisque laoreet nibh hendrerit</p>
+                        </li>
+                        <li class="thirdSection__listItem" data-aos="fade-right" data-aos-delay="300"
+                            data-aos-duration="1000">
+                            <img class="thirdSection__icon" src="./images/paw.svg" alt="icon">
+                            <p class="typography typography__bold">In aliquet magna nec lobortis maximus. Etiam a dolor
+                                placerat</p>
+                        </li>
+                        <li class="thirdSection__listItem" data-aos="fade-right" data-aos-delay="400"
+                            data-aos-duration="1000">
+                            <img class="thirdSection__icon" src="./images/paw.svg" alt="icon">
+                            <p class="typography typography__bold">Etiam dolor nec elementum ipsum convall Maecenas</p>
+                        </li>
+                    </ul>
+                    <a class="firstSection__button button" href="#" data-aos-easing="ease-out-back"
+                       data-aos="zoom-in-right"
+                       data-aos-delay="300" data-aos-duration="1100">Know More About Us</a>
+                </div>
+                <div class="col-12 col-lg-5">
+                    <div class="thirdSection__imageWrapper">
+                        <img class="thirdSection__image" src="./images/third-section/image.png" alt="image"
+                             data-aos-easing="ease-out-back"
+                             data-aos="zoom-in" data-aos-duration="1100">
+                        <img class="thirdSection__decoration thirdSection__decoration_first"
+                             src="./images/third-section/decoration.svg" alt="">
+                        <img class="thirdSection__decoration thirdSection__decoration_second"
+                             src="./images/third-section/decoration-1.svg" alt="">
+                        <img class="thirdSection__decoration thirdSection__decoration_fourth"
+                             src="./images/decoration-2.svg"
+                             alt="">
+                        <div class="thirdSection__circle"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <a name="team"></a>
+        <section class="fourthSection" data-aos-easing="ease-out-back"
+                 data-aos="zoom-in" data-aos-duration="1100">
+            <div class="row">
+                <p class="fourthSection__info typography typography__red typography__centered typography__info"
+                   data-aos="fade-up" data-aos-delay="100"
+                   data-aos-duration="1000">
+                    Our Team
+                </p>
+                <h2 class="fourthSection__title typography typography__centered typography__h2" data-aos="fade-up"
+                    data-aos-delay="100"
+                    data-aos-duration="1000">
+                    Meet Our Groomers
+                </h2>
+            </div>
+            <ul class="fourthSection__list row">
+                <li class="col-12 col-xl-3 col-md-6">
+                    <div class="fourthSection__listItem" data-aos="fade-up" data-aos-delay="200"
+                         data-aos-duration="1000">
+                        <img class="fourthSection__image" src="./images/fourth-section/person.png" alt="icon">
+                        <h4 class="typography typography__centered typography__h4 fourthSection__listTitle">
+                            Rosalina Wiliam
+                        </h4>
+                        <p class="typography typography__centered typography__red fourthSection__listText">
+                            CEO & Founder
+                        </p>
+                    </div>
+                </li>
+                <li class="col-12 col-xl-3 col-md-6">
+                    <div class="fourthSection__listItem" data-aos="fade-up" data-aos-delay="300"
+                         data-aos-duration="1000">
+                        <img class="fourthSection__image" src="./images/fourth-section/person-1.png" alt="icon">
+                        <h4 class="typography typography__centered typography__h4 fourthSection__listTitle">
+                            Rosalina Wiliam
+                        </h4>
+                        <p class="typography typography__centered typography__red fourthSection__listText">
+                            CEO & Founder
+                        </p>
+                    </div>
+                </li>
+                <li class="col-12 col-xl-3 col-md-6">
+                    <div class="fourthSection__listItem" data-aos="fade-up" data-aos-delay="400"
+                         data-aos-duration="1000">
+                        <img class="fourthSection__image" src="./images/fourth-section/person-2.png" alt="icon">
+                        <h4 class="typography typography__centered typography__h4 fourthSection__listTitle">
+                            Rosalina Wiliam
+                        </h4>
+                        <p class="typography typography__centered typography__red fourthSection__listText">
+                            CEO & Founder
+                        </p>
+                    </div>
+                </li>
+                <li class="col-12 col-xl-3 col-md-6">
+                    <div class="fourthSection__listItem" data-aos="fade-up" data-aos-delay="500"
+                         data-aos-duration="1000">
+                        <img class="fourthSection__image" src="./images/fourth-section/person-3.png" alt="icon">
+                        <h4 class="typography typography__centered typography__h4 fourthSection__listTitle">
+                            Rosalina Wiliam
+                        </h4>
+                        <p class="typography typography__centered typography__red fourthSection__listText">
+                            CEO & Founder
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <a name="price"></a>
+        <section class="fifthSection" data-aos="fade-up" data-aos-delay="200"
+                 data-aos-duration="1000">
+            <img class="fifthSection__decoration"
+                 src="./images/third-section/decoration-2.svg" alt="dog-image">
+            <div class="splide " aria-label="Splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide fifthSection__slide">
+                            <p class="typography typography__centered typography__h4">Regular Pack</p>
+                            <h3 class="fifthSection__heading typography typography__centered typography__h3">3 Days</h3>
+                            <p class="fifthSection__info typography typography__centered">Pet Shower</p>
+                            <p class="fifthSection__info typography typography__centered">Fitness Checkup</p>
+                            <p class="fifthSection__info typography typography__centered">Pet Grooming</p>
+                            <p class="fifthSection__info typography typography__centered">Hair and Nail Cut</p>
+                            <p class="fifthSection__info typography typography__centered">Control Hair Falling</p>
+                            <p class="fifthSection__price typography typography typography__centered typography__h3 typography__red">
+                                $150<span class="typography__body">Per Visit</span></p>
+                            <a class="button" href="#">
+                                Purchase Pack
+                            </a>
+                        </li>
+                        <li class="splide__slide fifthSection__slide">
+                            <p class="typography typography__centered typography__h4">Exclusive Pack</p>
+                            <h3 class="fifthSection__heading typography typography__centered typography__h3">10
+                                Days</h3>
+                            <p class="fifthSection__info typography typography__centered">Pet Shower</p>
+                            <p class="fifthSection__info typography typography__centered">Fitness Checkup</p>
+                            <p class="fifthSection__info typography typography__centered">Pet Grooming</p>
+                            <p class="fifthSection__info typography typography__centered">Hair and Nail Cut</p>
+                            <p class="fifthSection__info typography typography__centered">Control Hair Falling</p>
+                            <p class="fifthSection__info typography typography__centered">Brush & Blow Dry</p>
+                            <p class="fifthSection__info typography typography__centered">Pet Park And Games</p>
+                            <p class="fifthSection__price typography typography__centered typography__h3 typography__red">
+                                $350<span class="typography__body">Per Visit</span></p>
+                            <a class="button" href="#">
+                                Purchase Pack
+                            </a>
+                        </li>
+                        <li class="splide__slide fifthSection__slide">
+                            <p class="typography typography__centered typography__h4">Premium Pack</p>
+                            <h3 class="fifthSection__heading typography typography__centered typography__h3">30
+                                Days</h3>
+                            <p class="fifthSection__info typography typography__centered">Pet Shower</p>
+                            <p class="fifthSection__info typography typography__centered">Fitness Checkup</p>
+                            <p class="fifthSection__info typography typography__centered">Pet Grooming</p>
+                            <p class="fifthSection__info typography typography__centered">Hair and Nail Cut</p>
+                            <p class="fifthSection__info typography typography__centered">Control Hair Falling</p>
+                            <p class="fifthSection__info typography typography__centered">Control Hair Falling</p>
+                            <p class="fifthSection__price typography typography__centered typography__h3 typography__red">
+                                $550<span class="typography__body">Per Visit</span></p>
+                            <a class="button" href="#">
+                                Purchase Pack
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="sixthSection" data-aos-easing="ease-out-back"
+                 data-aos="zoom-in" data-aos-duration="1100">
+            <img class="sixthSection__decoration sixthSection__decoration_fifth" src="./images/decoration-2.svg"
+                 alt="">
+            <div class="row">
+                <div class="col-12 col-lg-7">
+                    <h2 class="sixthSection__title typography typography__h2" data-aos="fade-up"
+                        data-aos-delay="100"
+                        data-aos-duration="1000">
+                        Professional Pet Care
+                    </h2>
+                    <p class="sixthSection__info typography"
+                       data-aos="fade-up" data-aos-delay="100"
+                       data-aos-duration="1000">
+                        Pet owners trust us to look after the needs of their beloved companions. We are specialists
+                        committed to delivering the very highest of veterinary care and affection.
+                    </p>
+                    <a class="button" href="#">
+                        Contact Us Now
+                    </a>
+                </div>
+                <div class="col-12 col-lg-5">
+                    <div class="sixthSection__imageWrapper">
+                        <div class="sixthSection__circle"></div>
+                        <img class="sixthSection__image" src="./images/sixth-section/dog.png" alt="dog-image">
+                        <img class="sixthSection__decoration sixthSection__decoration_first"
+                             src="./images/sixth-section/decoration.png" alt="dog-image">
+                        <img class="sixthSection__decoration sixthSection__decoration_second"
+                             src="./images/sixth-section/decoration.png" alt="dog-image">
+                        <img class="sixthSection__decoration sixthSection__decoration_third"
+                             src="./images/sixth-section/decoration-1.png" alt="dog-image">
+                        <img class="sixthSection__decoration sixthSection__decoration_fourth"
+                             src="./images/third-section/decoration-2.svg" alt="dog-image">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+<footer class="footer">
+    <img class="footer__decoration" src="./images/decoration-2.svg"
+         alt="">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <img class="footer__logo" src="./images/logo.svg" alt="">
+                <p class="footer__info typography typography__smallText">
+                    Quisque id leo non dolor tempor elementum quis ac urna. Nam pharetra, ligula
+                    eget finibus dignissim, turpis ipsum sollicitudin</p>
+
+            </div>
+            <div class="col-6 col-md-6 col-lg-3">
+                <h3 class="footer__heading">Address</h3>
+                <ul>
+                    <li class="typography typography__smallText">
+                        <a class="footer__link" href="tel:+23 384 485 29">
+                            +23 384 485 29
+                        </a>
+                    </li>
+                    <li class="typography typography__smallText">
+                        <a class="footer__link" href="mailto:vet@shamim.com">
+                            vet@shamim.com
+                        </a>
+                    </li>
+                    <li class="typography typography__smallText">123 king street, Melbrown
+                    </li>
+                    <li class="typography typography__smallText"> Victoria 3000, Australia
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6 col-md-6 col-lg-2">
+                <h3 class="footer__heading">Links</h3>
+                <ul>
+                    <li class="typography typography__smallText">
+                        <a class="footer__link" href="">
+                            About Us
+                        </a>
+                    </li>
+                    <li class="typography typography__smallText">
+                        <a class="footer__link" href="">
+                            Groomers
+                        </a>
+                    </li>
+                    <li class="typography typography__smallText">
+                        <a class="footer__link" href="">
+                            Contact Us
+                        </a>
+                    </li>
+                    <li class="typography typography__smallText">
+                        <a class="footer__link" href="">
+                            Privacy Policy
+                        </a>
+                    </li>
+                    <li class="typography typography__smallText">
+                        <a class="footer__link" href="">
+                            Tearms
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-8 col-md-6 col-lg-3">
+                <h3 class="footer__heading">Opening Hours</h3>
+                <ul>
+                    <li class="typography typography__smallText">Monday-Tuesday 09:00-18:00</li>
+                    <li class="typography typography__smallText">Wednesday 09:00-18:00</li>
+                    <li class="typography typography__smallText">Thrusday-Friday 09:00-18:00</li>
+                    <li class="typography typography__smallText">Saturday 10:00-17:00</li>
+                    <li class="typography typography__smallText">Sunday 10:30-16:00</li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer__copyright typography typography__centered typography__smallText">© Copyright 2021 - 2024 | Pet
+            Theme by Md Shamim
+            Hossain | All Rights Reserved</p>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+</body>
+</html>

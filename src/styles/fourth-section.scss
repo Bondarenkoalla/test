@@ -1,0 +1,48 @@
+.fourthSection {
+  background: #FFECE4;
+  border-radius: 50px;
+  padding: 100px;
+  margin: 0 -100px;
+
+  @media screen and (max-width: 1320px) {
+    margin: 0;
+    padding: 50px;
+  }
+
+  &__info {
+    margin-bottom: 10px;
+  }
+
+  &__title {
+    margin-bottom: 60px;
+  }
+  &__list{
+    @media screen and (max-width: 1320px) {
+      margin-bottom: -30px;
+    }
+  }
+
+  &__listItem {
+    background-color: #FFFFFF;
+    border-radius: 146px;
+    padding: 50px 50px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @media screen and (max-width: 1320px) {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__image {
+    margin-bottom: 30px;
+  }
+
+  &__listTitle {
+    margin-bottom: 7px;
+  }
+
+  &__listText {
+  }
+}
